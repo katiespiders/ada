@@ -1,5 +1,3 @@
-people = ['Crystal', 'Cate', 'Allie', 'Lily', 'Rachel', 'Holly', 'Stephanie', 'Karen', 'Linnea']
-
 def kill(people, start_index, delta):
   live_count = len(people)
   current_index = start_index % len(people)
@@ -16,4 +14,4 @@ def kill(people, start_index, delta):
       print people
 
   for person in people:
-      if person: print person
+      if person: return person
