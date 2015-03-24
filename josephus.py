@@ -11,7 +11,6 @@ def kill(people, start_index, delta):
 
       people[current_index] = False
       live_count -= 1
-      print people
 
   for person in people:
       if person: return person
